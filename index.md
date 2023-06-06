@@ -27,3 +27,7 @@
 
 !['before'](./before.png)
 !['after'](./after.png)
+
+## 4 -
+
+!["ПРототип низкой детализации"](./proto.png)
