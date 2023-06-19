@@ -15,51 +15,40 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.list{
-    background: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 30px;
-}
 .header__title{
     text-decoration: underline;
 }
-.list__el{
-    list-style-type: none;
-}
-.list__el:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-.list__hidden{
-    display: none;
-}
-.list:hover .list__hidden{
-    display: block;
-}
+
 .main{
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 700px;
     margin-top: 50px;
 }
-.main__p{
-    margin-top: 30px;
+.main__form{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
-.main__title2{
+.form__lable{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.form__input{   
+    background: rgb(96, 241, 96); 
+    border: none;  
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.form__btn{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.main__output{
+    margin-top: 30px;
     text-align: center;
 }
-.main__title3{
-    margin-top: 20px;
-}
-.main__p{
-    text-align: justify;
-}
-.img-box{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-.img-box__img{
-    max-width: 150px;
-    border-radius: 100%;
+.output__name{
+    font-size: 20px;
+    text-decoration: underline;
 }
